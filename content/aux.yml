@@ -1,0 +1,5 @@
+title: Open E-Mobility
+sort_field: url
+sort_direction: asc
+entry_route: /{slug}
+rss: true

@@ -1,0 +1,27 @@
+{
+	"name": "eklausme/saaze-mobility",
+	"description": "A blog-theme for open-e-mobility.io",
+	"type": "project",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Elmar Klausmeier",
+			"email": "Elmar.Klausmeier@gmail.com",
+			"homepage": "https://open-e-mobility.io"
+		}
+	],
+	"require": {
+		"eklausme/saaze": ">=1.20"
+	},
+	"config": {
+		"optimize-autoloader": true,
+		"preferred-install": "dist",
+		"sort-packages": true,
+		"allow-plugins": {
+			"composer/package-versions-deprecated": true
+		}
+	},
+	"prefer-stable": true,
+	"require-dev": {
+	}
+}

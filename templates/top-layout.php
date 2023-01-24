@@ -207,7 +207,7 @@ li > p:first-child { margin-top: -1.5em }
 if (!isset($entry['en'])) $entry['en'] = '';
 if (!isset($entry['de'])) $entry['de'] = 'de/de-home';
 if (!isset($entry['fr'])) $entry['fr'] = 'fr/accueil';
-if ($entry['lang'] == 'en') { ?>
+if ($entry['lang'] == 'en') { $nextUrlTxt = "Older"; $prevUrlTxt = "Newer"; ?>
 		<div class="dropdown"><button class="dropbtn">Home</button><div class="dropdown-content">
 			<a href="<?=$rbase?>/">Home</a>
 			<a href="<?=$rbase?>/about">About us</a>
@@ -234,7 +234,7 @@ if ($entry['lang'] == 'en') { ?>
 			<a href="<?=$rbase.'/'.$entry['de']?>"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="18" viewBox="0 0 5 3"><desc>Flag of Germany</desc><rect id="black_stripe" width="5" height="3" y="0" x="0" fill="#000"/><rect id="red_stripe" width="5" height="2" y="1" x="0" fill="#D00"/><rect id="gold_stripe" width="5" height="1" y="2" x="0" fill="#FFCE00"/></svg> DE</a>
 			<a href="<?=$rbase.'/'.$entry['fr']?>"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="18"><desc>Flag of France</desc><path fill="#CE1126" d="M0 0h27v18H0"/><path fill="#fff" d="M0 0h18v18H0"/><path fill="#002654" d="M0 0h9v18H0"/></svg> FR</a>
 		</div></div>
-<?php } else if ($entry['lang'] == 'de') { ?>
+<?php } else if ($entry['lang'] == 'de') { $nextUrlTxt = "Älter"; $prevUrlTxt = "Jünger"; ?>
 		<div class="dropdown"><button class="dropbtn">Home</button><div class="dropdown-content">
 			<a href="<?=$rbase?>/">Hauptseite</a>
 			<a href="<?=$rbase?>/de/uber-uns">Über uns</a>
@@ -261,7 +261,7 @@ if ($entry['lang'] == 'en') { ?>
 			<a href="<?=$rbase.'/'.$entry['de']?>"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="18" viewBox="0 0 5 3"><desc>Flag of Germany</desc><rect id="black_stripe" width="5" height="3" y="0" x="0" fill="#000"/><rect id="red_stripe" width="5" height="2" y="1" x="0" fill="#D00"/><rect id="gold_stripe" width="5" height="1" y="2" x="0" fill="#FFCE00"/></svg> DE</a>
 			<a href="<?=$rbase.'/'.$entry['fr']?>"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="18"><desc>Flag of France</desc><path fill="#CE1126" d="M0 0h27v18H0"/><path fill="#fff" d="M0 0h18v18H0"/><path fill="#002654" d="M0 0h9v18H0"/></svg> FR</a>
 		</div></div>
-<?php } else if ($entry['lang'] == 'fr') { ?>
+<?php } else if ($entry['lang'] == 'fr') { $nextUrlTxt = "Plus âgée"; $prevUrlTxt = "Plus récent"; ?>
 		<div class="dropdown"><button class="dropbtn">Home</button><div class="dropdown-content">
 			<a href="<?=$rbase?>/">Accueil</a>
 			<a href="<?=$rbase?>/about">À propos</a>

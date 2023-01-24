@@ -19,11 +19,11 @@ require SAAZE_PATH . "/templates/top-layout.php";
 </main>
 	<aside>
 	<?php if ($pagination['nextUrl']) { ?>
-	<a href="<?= $rbase . $pagination['nextUrl'] ?>">&larr; Older</a> &nbsp; &nbsp; &nbsp;
+	<a href="<?= $rbase . $pagination['nextUrl'] ?>">&larr; <?=$nextUrlTxt?></a> &nbsp; &nbsp; &nbsp;
 	<?php } ?>
 	<?php if ($pagination['prevUrl']) { ?>
-	<a href="<?= $rbase . $pagination['prevUrl'] ?>">Newer &rarr;</a>
+	<a href="<?= $rbase . $pagination['prevUrl'] ?>"><?=$prevUrlTxt?> &rarr;</a>
 	<?php } ?>
 	</aside>
-
+<p></p>
 <?php require SAAZE_PATH . "/templates/bottom-layout.php"; ?>

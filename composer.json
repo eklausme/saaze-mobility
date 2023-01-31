@@ -11,7 +11,7 @@
 		}
 	],
 	"require": {
-		"eklausme/saaze": ">=1.20"
+		"eklausme/saaze": ">=1.22"
 	},
 	"config": {
 		"optimize-autoloader": true,

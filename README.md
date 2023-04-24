@@ -60,22 +60,25 @@ This will copy the files of this Git repository, it will also install _Simplifie
 
 Once everything is installed, switch to the directory and run
 ```bash
-php saaze -mr
+php saaze -mor
 ```
 Runtime should be a fraction of a second. The options used:
-1. `-m` is used to generate a sitemap
-2. `-r` generates RSS XML feed
+1. `-m` is used to generate an XML sitemap
+2. `-o` is used to generate an HTML sitemap, i.e., an overview
+3. `-r` generates RSS XML feed
 
 Assuming you installed everything in `~/saaze-mobility`, then for deployment on my local web-server I use below command line:
 ```bash
 ( rm -rf /srv/http/mobility; cd /srv/http; mv ~/saaze-mobility/build ./mobility ; cd mobility; ln -s ~/saaze-mobility/public/img )
 ```
 
+The post [Installing Simplified Saaze on Windows 10 #2](https://eklausmeier.goip.de/blog/2023/01-31-installing-simplified-saaze-on-windows-10-p2) contains a description how to install _Simplified Saaze_ on Windows.
+
 
 __3. Conversion.__ For the conversion of [open-e-mobility.io](http://open-e-mobility.io) to Markdown I simply used copy-and-paste from browser page directly. This approach is feasible here, as the original website only contains very few pages, and each pages contain few text. I converted only 31 pages.
 
 
-__4. Templates and configuration.__ There are two so called collections, `blog.yml` and `aux.yml`. Both set `rss: true`, and set `entry_route: /{slug}`. So blog posts and auxiliary pages "mix" at the top directory.
+__4. Templates and configuration.__ There are two so called collections, `blog.yml` and `auxil.yml`. Both set `rss: true`, and set `entry_route: /{slug}`. So blog posts and auxiliary pages "mix" at the top directory.
 
 Many Markdown files contain three additional entries in frontmatter managing multi-lingual. For example:
 ```yaml

@@ -1,19 +1,15 @@
-<?php $url='/sitemap.html'; ?>
-<?php require SAAZE_PATH . "/templates/head.php"; ?>
-<title>Sitemap</title>
-</head>
-<body>
-<h1>Sitemap</h1>
-<ol>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <?php
 foreach ($collections as $collection) {
 	sort($collection->entries);
 	foreach ($collection->entries as $entry) {
-		$href = isset($collection->data['uglyURL']) ? $entry->data['url'] . '.html' : $entry->data['url'];
-		printf("\t<li><a href=\".%s\">%s</a></li>\n", $href, $entry->data['url']);
+		$modurl = $entry->data['url'];	// if data['url'] already has html suffix, then drop it
+		if (strlen($modurl) >= 6 && substr($modurl,-5) === '.html') $modurl = substr($modurl,0,-5);
+		$href = isset($collection->data['uglyURL']) ? $modurl . '.html' : $modurl;
+		printf("\t<url><loc>https://eklausmeier.goip.de/mobility%s</loc></url>\n", $href);
 	}
 }
 ?>
-</ol>
-</body>
-</html>
+</urlset>
+

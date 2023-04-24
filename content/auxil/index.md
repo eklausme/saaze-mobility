@@ -4,6 +4,7 @@ title: "Open E-Mobility is a smart EV solution and energy management software"
 lang: "en"
 de: "de/de-home"
 fr: "fr/accueil"
+url: "/"
 ---
 
 <div class=imgcontainer><img style="border-radius:15em" alt="Charging car" src="./img/ez-charge_01-384x256.webp">

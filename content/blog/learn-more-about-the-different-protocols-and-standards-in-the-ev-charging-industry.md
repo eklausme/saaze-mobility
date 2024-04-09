@@ -36,14 +36,14 @@ OSCP is also an open protocol for communications between a charge point manageme
 
 It can be used to communicate real-time prediction of the capacity of a charging network to the charging operator. Its main strength is to facilitate the intelligent charging of electric vehicles according to the capacity of the network.
 
-![](../img/OSCP-1-1024x756.webp)
+![](*<?=$rbase?>*/img/OSCP-1-1024x756.webp)
 
 Norme ISO 15118  
 This international standard is essential for bi-directional digital communications between electric vehicles and charging stations. It defines a Vehicle to grid (V2G) communication interface for the charging/discharging process of electric vehicles.  
 
 ISO 15118 is a key element of the “Plug and Charge” function that allows drivers to insert the charging plug, charge and then drive away when they are ready. This process is made possible by a digital certificate that is located in the vehicle. It allows communication with the Charge Point Management System (CPMS). This makes the charging process completely seamless from end to end, so it includes authentication and automatic billing. It offers a better user experience because the use of an RFID card, an application, or the use of a PIN code is no longer required.
 
-![](../img/ISO-15118.webp)
+![](*<?=$rbase?>*/img/ISO-15118.webp)
 
 ## Protocols for Roaming Platforms
 ### OCPI – Open Charge Point Interface
@@ -69,7 +69,7 @@ This protocol also allows unlimited charging of electric vehicles across chargin
 
 This protocol is widespread in Germany and the Netherlands, indeed, e-clearing.net is an initiative supported by the Dutch Ministry of Economics and the Federal Ministry of Economic Affairs and Energy.
 
-![](../img/e-clearing-net.webp)
+![](*<?=$rbase?>*/img/e-clearing-net.webp)
 
 ### OICP – Open InterCharge Protocol
 OICP is a protocol developed by Hubject. It’s now a communication standard implemented between the systems of various e-mobility service providers (EMSVP) and charge point operators (CPO) via the Hubject platform.

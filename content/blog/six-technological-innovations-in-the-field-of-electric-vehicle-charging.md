@@ -36,7 +36,7 @@ This is a real breakthrough that the whole world needs! Current ultra-fast charg
 
 Trucks are heavier and require more energy and therefore more power. With nearly four years in development, CharIN, the global standards body for electric vehicles, has launched a fast-charging connector. The [Megawatt charging system](https://www.charin.global/technology/mcs/), as it is called, is designed for heavy-duty vehicles. It is designed for DC charging of up to 3750 kW. This increases the truck’s range by about 320 km in just half an hour of charging.  Above all, this allows trucks to get closer to 800km of range for one trip!
 
-![](../img/megawatt-system-charin-394x263.webp)
+![](*<?=$rbase?>*/img/megawatt-system-charin-394x263.webp)
 Megawatt charging system
 Credit photo : CharIN
 

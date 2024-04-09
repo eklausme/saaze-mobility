@@ -6,7 +6,7 @@ de: "de/smart-charging-funktion"
 en: "smart-charging"
 ---
 
-![](../../img/mock-up-application_smart-charging02-800x667.png)
+![](*<?=$rbase?>*/img/mock-up-application_smart-charging02-800x667.png)
 
 ## La recharge intelligente permet de faire correspondre de manière rentable la demande d’énergie avec la performance énergétique en temps réel.
 

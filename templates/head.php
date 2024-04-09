@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="canonical" href="https://eklausmeier.goip.de<?=$url??''?>">
+	<link rel="canonical" href="https://eklausmeier.goip.de/mobility<?=$url??''?>">
 	<link rel="alternate" type="application/rss+xml" title="RSS" href="https://eklausmeier.goip.de/mobility/feed.xml">
 	<meta name="description" content="Open E-Mobility">
 	<meta name="generator" content="Simplified Saaze">

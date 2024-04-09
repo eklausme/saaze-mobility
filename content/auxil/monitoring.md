@@ -4,13 +4,13 @@ title: "Monitoring &ndash; We help you to monitor your charging points"
 lang: "en"
 ---
 
-![](../img/mock-up-application-02-800x667.png)
+![](*<?=$rbase?>*/img/mock-up-application-02-800x667.png)
 
 ## To Assist You
 
 Our cloud-based solution allows you to supervise and manage your entire infrastructure and your users in order to make the energy transition scalable and highly available.
 
-![](../img/bornes-charging-EV-01-512x384.webp)
+![](*<?=$rbase?>*/img/bornes-charging-EV-01-512x384.webp)
 
 The main strength of Open E-Mobility is to allow you to easily manage your energy infrastructure by providing detailed information about its usage in real time. It also gives your drivers the opportunity to charge their cars in a smart way. Available on both your computer and your smartphone, our solution gives you a dynamic overview of the data relevant to you, whether you are an administrator or a user. We built Open E-Mobility to meet the expectations of both EV drivers and site managers.
 

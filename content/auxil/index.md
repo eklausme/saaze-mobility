@@ -4,10 +4,9 @@ title: "Open E-Mobility is a smart EV solution and energy management software"
 lang: "en"
 de: "de/de-home"
 fr: "fr/accueil"
-url: "/"
 ---
 
-<div class=imgcontainer><img style="border-radius:15em" alt="Charging car" src="./img/ez-charge_01-384x256.webp">
+<div class=imgcontainer><img style="border-radius:15em" alt="Charging car" src="<?=$rbase?>/img/ez-charge_01-384x256.webp">
 <div class=textimg>
 <p>We help you run your e-mobility business</p>
 <p><a href="https://slf.e-mobility-labs.com/auth/login?email=demo.demo@sap.com&password=DeM*Us$r1">Try it now</a> in live demo.</p>
@@ -73,9 +72,9 @@ Click on below images to see video.
 <blockquote>
 <p>“When I announced my wish in 2015 to convert the entire company car fleet to electric cars within 5 years, I got a lot of criticism. Today 92% of our employees are happy EV drivers and Open E-Mobility was instrumental in driving this change.”</p>
 <p>Hanno Klausmeier, SAP Labs France Managing Director</p>
-</blockquote><img alt="Hanno Klausmeier" src="./img/Hanno_Klausmeier-400x282.webp"></div>
+</blockquote><img alt="Hanno Klausmeier" src="<?=$rbase?>/img/Hanno_Klausmeier-400x282.webp"></div>
 <hr>
-<div class=imgcontainer><img alt="Tobias Wagner" src="./img/Tobias-Wagner-400x400.webp">
+<div class=imgcontainer><img alt="Tobias Wagner" src="<?=$rbase?>/img/Tobias-Wagner-400x400.webp">
 <blockquote>
 <p>“With Open E-Mobility, you have full control, transparency and other features that have made our charging offering even better.”
 <p>Tobias Wagner, ChargeX CEO
@@ -87,11 +86,11 @@ Click on below images to see video.
 ## We help you run your e-mobility business
 
 <div class=imgcontainer>
-<img alt="Mairie de Monaco" src="./img/mairie-monaco-logo-200x200.png">
-<img alt="ZEPlug" src="./img/Logo-Zeplug-200x127.png">
-<img alt="EZ-Charge" src="./img/logo-EZ-charge-200x122.png">
-<img alt="ProViridis" src="./img/Logo-PROVIRIDIS-Greenpower-clair-2-200x53.png">
-<img alt="ChargeX" src="./img/ChargeX_Logo_black-200x195.png">
+<img alt="Mairie de Monaco" src="<?=$rbase?>/img/mairie-monaco-logo-200x200.png">
+<img alt="ZEPlug" src="<?=$rbase?>/img/Logo-Zeplug-200x127.png">
+<img alt="EZ-Charge" src="<?=$rbase?>/img/logo-EZ-charge-200x122.png">
+<img alt="ProViridis" src="<?=$rbase?>/img/Logo-PROVIRIDIS-Greenpower-clair-2-200x53.png">
+<img alt="ChargeX" src="<?=$rbase?>/img/ChargeX_Logo_black-200x195.png">
 </div>
 
 

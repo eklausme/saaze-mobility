@@ -4,7 +4,12 @@
 	<article class=aentry>
 <h1><?= $entry['title'] ?></h1>
 <?php if (isset($entry['heroimg'])) printf("<p><img src=\"%s/img/%s\"></p>\n",$rbase,$entry['heroimg']); ?>
-<?= $entry['content'] ?>
+<?php
+	/* old: <?= $entry['content'] ?> */
+	$s = str_replace('*%3C?','<?',$entry['content']);
+	$s = str_replace('?%3E*','?>',$s);
+	require 'data:text/plain;base64,'.base64_encode($s);
+?>
 	</article>
 
 <div class=imgcontainer><img style="border-radius:15em" alt="Charging car" src="<?=$rbase?>/img/charging-car_01-400x289.webp">

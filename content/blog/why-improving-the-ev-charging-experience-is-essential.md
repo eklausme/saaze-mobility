@@ -14,7 +14,7 @@ Competition in the market will be tough and the customer experience when chargin
 ## How to improve the customer experience when charging an electric vehicle?
 No matter how complex the management of charging stations and EV charging may be, the end-user experience must be kept simple. To achieve this, the platform that manages charging sessions must be customer-focused and offer a range of features that will make life easier. Here are some of them!
 
-![](../img/Ev-car-ux-02-1-1024x678.jpg)
+![](*<?=$rbase?>*/img/Ev-car-ux-02-1-1024x678.jpg)
 
 ### Making charge points easily accessible
 Let’s be clear, the days of charging points in industrial estates or at the back of dreary car parks must be over. Charge points must be accessible and easy to find. Likewise, applications and web portals must make it easy to display them.

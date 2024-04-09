@@ -6,7 +6,7 @@ en: "smart-charging"
 fr: "fr/charge-intelligente"
 ---
 
-![](../../img/mock-up-application_smart-charging02-800x667.png)
+![](*<?=$rbase?>*/img/mock-up-application_smart-charging02-800x667.png)
 
 ## Smart Charging ermöglicht eine kosteneffiziente Abstimmung des Energiebedarfs mit der Energieleistung in Echtzeit
 Mit unserer Lösung haben wir einen Algorithmus entwickelt, der die Ladequalität mit automatischer Steuerung in Abhängigkeit von mehreren Variablen optimiert.

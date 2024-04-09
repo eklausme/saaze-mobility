@@ -26,7 +26,7 @@ Indeed, Kubernertes is designed to optimize application development. The solutio
 Kubernetes is even better with third-party services
 As an open-source solution, Kubernetes is more efficient because of the add-on solutions that can be connected. Through APIs, So, connecting third-party solutions through APIs make this technology very effective.
 
-![](../img/kubernetes-diagram-2-824x437-2.png)
+![](*<?=$rbase?>*/img/kubernetes-diagram-2-824x437-2.png)
 
 # What applications for Open E-Mobility?
 

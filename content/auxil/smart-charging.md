@@ -6,7 +6,7 @@ de: "de/smart-charging-funktion"
 fr: "fr/charge-intelligente"
 ---
 
-![](../img/mock-up-application_smart-charging02-800x667.png)
+![](*<?=$rbase?>*/img/mock-up-application_smart-charging02-800x667.png)
 
 ### Smart charging enables cost-effective matching of energy demand with energy performance in real-time
 

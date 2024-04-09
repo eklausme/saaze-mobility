@@ -1,5 +1,5 @@
 <?php require SAAZE_PATH . "/templates/head.php"; ?>
-<title><?= $title ?? "Saaze" ?></title>
+	<title><?= $title ?? "Saaze" ?></title>
 
 <style>
 :root { --bg-color:white; color:black; --h1Color:DarkBlue; --thColor:LightBlue; --nthChild:LightGray; }

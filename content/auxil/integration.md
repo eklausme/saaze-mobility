@@ -4,7 +4,7 @@ title: "Integration -- We provide full integration to third-party software"
 lang: "en"
 ---
 
-![](../img/mock-up-application_cars-800x667.png)
+![](*<?=$rbase?>*/img/mock-up-application_cars-800x667.png)
 
 ## Multi-Integrations, a lot of possibilities
 Open E-Mobility is a turnkey software that supports different use cases. To make this possible, connectors and application programming interfaces (APIs) are available for connecting third-party software to facilitate their integration.
@@ -19,8 +19,8 @@ Open E-Mobility gives you the possibility to connect with your car DATA
 
 Opening your infrastructure to the public may be a way to actively contribute to the energy transition or to generate revenues. Besides, in various countries, you may even need to connect your charging stations to a roaming platform such as Hubject, e-clearing.net, Gireve or others to obtain incentives for the installation of your charging stations network.
 
-![](../img/Hubject.png)
-![](../img/logo_Gireve.png)
+![](*<?=$rbase?>*/img/Hubject.png)
+![](*<?=$rbase?>*/img/logo_Gireve.png)
 
 ## Welcoming roaming drivers
 __EV roaming__ enables electric vehicle drivers to access EV charging infrastructure worldwide. Gireve and Hubject are for example two prominent marketplaces in Europe that enable EV drivers to use your charging points directly with their own charging cards.
@@ -50,7 +50,7 @@ However, Charge Point Management Systems (CPMS) may miss critical car informatio
 
 To solve this problem, Open E-Mobility leverages __car connectors__ that inform our software about the SoC of the vehicles. Car connectors can be software based and brand specific (in this case we connect directly to the cloud of the manufacturer, e.g. Mercedes), software based and brand agnostic (thanks to aggregators such as Tronity that offer a single API to connect with the main constructors including Tesla, VW, Renault, Stellantis, Kia, etc.), or hardware based (the SoC of your fleet vehicles are transferred to a private space accessible via our software).
 
-![](../img/mercedes-tronity-800x533.png)
+![](*<?=$rbase?>*/img/mercedes-tronity-800x533.png)
 
 ## Integrating Open E-Mobility with your software landscape
 Open E-Mobility is only one component of the enterprise software landscape, therefore, to make your day-to-day business easier, it must interact with other components to better understand the usage and the costs of the EV infrastructure and to make the employee experience transparent and easy.

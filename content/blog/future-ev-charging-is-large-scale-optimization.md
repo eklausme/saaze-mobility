@@ -22,7 +22,7 @@ In order to make charging even more efficient, the charging stations must be ope
 Proactive and automated problem resolution
 Our experience during the last 7 years shows that 80% of the errors related to chargers can be solved remotely, the implementation of an AI to manage these issues can save time on the supervision of a large network of charging stations. Indeed, automating a process before human intervention brings comfort to the teams in charge of network maintenance. More advanced algorithms can solve most problems before human intervention. They can therefore help to keep the network afloat without mobilizing too many human resources, reducing cost and improving user experience.
 
-![](../img/scale_01-512x342.webp)
+![](*<?=$rbase?>*/img/scale_01-512x342.webp)
 charging car parking lot
 
 ## Future of EV charging station will have digital solutions needed to manage a network in an optimal way
@@ -35,7 +35,7 @@ It must be compatible with a large subset of themany chargers on the market. It 
 The mass operation of such large networks requires the integration and management of a large amount of data. This data must be accessible to the network operators, whether for business purposes (such as billing management),for real-time network intervention. Operational data must be able to help its technical managers provide reliable service to drivers in a sustainable way, because if the network expands, reliability must follow. Last not least data should enable to get insights about the different facets of network operations (eg. ROI, TCO, usage, reliability) enabling to pilot its evolution over time.
 
  
-![](../img/open-e-mobility-solution_01-1024x563.webp)
+![](*<?=$rbase?>*/img/open-e-mobility-solution_01-1024x563.webp)
 logiciel open-e-mobility
 Open E-Mobility Dashboard
 

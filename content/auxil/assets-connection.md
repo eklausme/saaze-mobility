@@ -4,7 +4,7 @@ title: "Assets connection -- We help you to connect all your assets"
 lang: "en"
 ---
 
-![](/img/mock-up-application_smart-charging02-800x667.png)
+![](*<?=$rbase?>*/img/mock-up-application_smart-charging02-800x667.png)
 
 Open E-Mobility allows you to interconnect charging points, buildings, energy production assets, and storage, independently of their hardware manufacturer.
 

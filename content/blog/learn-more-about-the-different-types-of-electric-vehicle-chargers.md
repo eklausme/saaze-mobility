@@ -35,7 +35,7 @@ The particularity of this charge is that it is available in two versions: a DC v
 
 However, for this fast charging to work, the vehicle must be equipped with a type 2 connector. Thus, when charging at a DC terminal, CCS or CHAdeMO connectors are required, which can cause compatibility problems. Unfortunately, this compatibility problem can be a hindrance to the successful deployment of these terminals. Drivers who do not have the connectors may find themselves at a loss when faced with them and feel abandoned.
 
-![](../img/BorneParagon_Mougins-1024x768.webp)
+![](*<?=$rbase?>*/img/BorneParagon_Mougins-1024x768.webp)
 Paragon, fast charger for EV
 
 ## Ultra fast charging

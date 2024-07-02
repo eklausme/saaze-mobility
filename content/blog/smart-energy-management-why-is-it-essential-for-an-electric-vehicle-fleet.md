@@ -29,7 +29,7 @@ Over-consumption can be problematic for companies because exceeding the contract
 
 Intelligent energy management can also increase load capacity by using renewable energy sources and storage facilities such as wind turbines, photovoltaic panels or batteries. So when prices are too high or demand exceeds what the grid can provide, intelligent energy management comes into play and switches part of the supply to these sources outside the grid. This reduces costs and pressure on the grid.
 
-Open E-Mobility allows the [use of energy sources external](/assets-connection) to the grid, so that vehicles can continue to be charged if the main grid fails. In this way, companies gain resilience. Energy that can be stored in local batteries and renewable energy sources will take over. Our solution can also be configured according to company policy to determine priority needs when energy availability is limited.
+Open E-Mobility allows the [use of energy sources external](*<?=$rbase?>*/assets-connection) to the grid, so that vehicles can continue to be charged if the main grid fails. In this way, companies gain resilience. Energy that can be stored in local batteries and renewable energy sources will take over. Our solution can also be configured according to company policy to determine priority needs when energy availability is limited.
 
 ### Smart Energy Management helps to keep the energy market flexible
 

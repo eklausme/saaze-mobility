@@ -6,9 +6,7 @@
 <?php if (isset($entry['heroimg'])) printf("<p><img src=\"%s/img/%s\"></p>\n",$rbase,$entry['heroimg']); ?>
 <?php
 	/* old: <?= $entry['content'] ?> */
-	$s = str_replace('*%3C?','<?',$entry['content']);
-	$s = str_replace('?%3E*','?>',$s);
-	require 'data:text/plain;base64,'.base64_encode($s);
+	eval( '?>' . str_replace('?%3E*','?>',str_replace('*%3C?','<?',$entry['content'])) );
 ?>
 	</article>
 
